@@ -49,6 +49,8 @@ body {
   text-align: center;
 }
 
+/* Button */
+
 .btn {
   width: 100px;
   background: var(--ternary);
@@ -71,11 +73,8 @@ body {
   transform: translateX(2deg);
 }
 
-hr {
-  background-color: var(--pure);
-  padding: 0;
-  margin: 80px;
-}
+/* Horizontal Rule */
+
 .hr__13 {
   height: 20px;
   border: 0;
@@ -86,13 +85,17 @@ hr {
   margin: 20px 0;
 }
 
-#loader {
+/* Loading Text */
+
+.loader {
   display: none;
 }
 
-#loader.show {
+.loader.show {
   display: block;
 }
+
+/* Media Querries  */
 
 /* Mobile */
 @media (min-width: 576px) {
